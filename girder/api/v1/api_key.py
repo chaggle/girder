@@ -16,6 +16,7 @@ class ApiKey(Resource):
         self.route('GET', (), self.listKeys)
         self.route('POST', (), self.createKey)
         self.route('POST', ('token',), self.createToken)
+        self.route('POST', ('key',), self.createToken)
         self.route('PUT', (':id',), self.updateKey)
         self.route('DELETE', (':id',), self.deleteKey)
 
