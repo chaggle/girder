@@ -64,7 +64,7 @@ class SettingDefault:
             'users': []
         },
         SettingKey.CONTACT_EMAIL_ADDRESS: 'kitware@kitware.com',
-        SettingKey.COOKIE_LIFETIME: 180,
+        SettingKey.COOKIE_LIFETIME: 18000,
         # These headers are necessary to allow the web server to work with just
         # changes to the CORS origin
         SettingKey.CORS_ALLOW_HEADERS:
